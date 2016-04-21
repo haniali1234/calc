@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/script.js"></script>
+	<title>Document</title>
+</head>
+<body>
+<p>Calc Apr.14 2016</p>
+	<form name="calc" id="calc">
+		<input id="input" type="text" name="txt1" >
+		<input type="button" name="btn0" onclick="myClear()" value="C">
+		<br>
+		<input type="button" name="btn1" value= 1 onclick="display_number(btn1.value)">
+		<input type="button" name="btn2" value= 2 onclick="display_number(btn2.value)">
+		<br>
+		<input type="button" name="btn3" value= 3 onclick="display_number(btn3.value)">
+		<input type="button" name="btn4" value= 4 onclick="display_number(btn4.value)">
+		<br>
+		<input type="button" name="addbtn" value= + onclick="display_number(addbtn.value)">
+		<input type="button" name="subbtn" value= - onclick="display_number(subbtn.value)">
+		<br>
+		<input type="button" name="equalbtn" value= = onclick="txt1.value = eval(txt1.value)">
+	</form>
+</body>
+</html>
